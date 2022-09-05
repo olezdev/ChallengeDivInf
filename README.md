@@ -12,3 +12,5 @@ De todas las consultas se sabe la fecha de realización, el profesional que la r
 - [x] Generar una herencia persona - médico - paciente *
 
 No es necesario armar algo funcional. Se evaluara a nivel conceptual como se resuelve.
+
+![UML Clinica](https://user-images.githubusercontent.com/88550405/188520047-e21d67ee-3f70-40e4-a8d2-1290ed150c55.jpeg)
