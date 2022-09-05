@@ -1,0 +1,34 @@
+﻿@model PatientViewModel
+
+@{
+    ViewData["Title"] = "Patients";
+}
+
+<div class="panel panel-default doctor-panel">
+  <div class="panel-heading">@ViewData["Title"]</div>
+
+  <table class="table table-hover">
+      <thead>
+          <tr>
+              <td>DNI</td>
+              <td>Name</td>
+              <td>HistoryClinic</td>
+              <td>Consultations</td>
+          </tr>
+      </thead>
+
+      @foreach (var item in Model.Patients)
+      {
+          <tr>
+              <td>@item.DNI</td>
+              <td>@item.Name</td>
+              <td>@item.HistoryClinic</td>
+              @*<td>@item.Consultations.</td>*@
+          </tr>
+      }
+  </table>
+
+  <div class="panel-footer add-item-form">
+    <!-- TODO: Add item form -->
+  </div>
+</div>
